@@ -58,19 +58,6 @@ Automatización de: manipulación de cookies, bypass de controles de acceso, enc
 
 ---
 
-### HTB Writeups — Máquinas resueltas
-> Writeups técnicos documentando vectores de compromiso y técnicas de explotación.
-
-| Máquina | OS | Técnica principal | CVE |
-|---------|-----|-------------------|-----|
-| Kobold | Linux | MCP Tool Poisoning + Docker group privesc | CVE-2026-23744 |
-| DevArea | Linux | Apache CXF LFI + Hoverfly RCE + systemd timer | CVE-2022-46364 / CVE-2025-54123 |
-| Vulnversity | Linux | File upload bypass + SUID systemctl | — |
-
-`Hack The Box` `Linux` `Privilege Escalation` `CVE Exploitation`
-
----
-
 ### Offensive Recon Framework *(en desarrollo)*
 > Pipeline automatizado de reconocimiento para fases iniciales de pentest.
 
@@ -90,9 +77,9 @@ Hydra · SQLmap · Wireshark · tshark · Any.run
 
 **Languages / Scripting**
 ```
-Python  ████████░░  Offensive scripts, automation, analysis tools
-Bash    ███████░░░  Recon pipelines, system automation
-C++     ████░░░░░░  Hardware projects (ESP32)
+Python  ████████  Offensive scripts, automation, analysis tools
+Bash    ███████   Recon pipelines, system automation
+C++     ████      Hardware projects (ESP32) -> Flipper Zero Personal (CH40S)
 ```
 
 **OS & Platforms**
