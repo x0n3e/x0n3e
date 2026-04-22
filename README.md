@@ -29,7 +29,7 @@ Buscando           → Prácticas / Junior Pentester en España
 
 ## Proyectos destacados
 
-### [Phishing_Report](https://github.com/x0n3e/Phishing_Report) — Banking Trojan Dissection
+### [Phishing_Report](https://github.com/x0n3e/Phising_Report) — Banking Trojan Dissection
 > Análisis OSINT completo de campaña activa de banking trojan (familia Grandoreiro/Mekotio). Reportado a INCIBE-CERT.
 
 Cadena de 8 stages documentada: filtro OS anti-bot → FingerprintJS Pro → HTA dropper → VBScript installer con anti-VM/AV → payload AutoIt con AES-192 + fileless execution vía `MemoryLoadLibrary`.
