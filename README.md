@@ -14,7 +14,7 @@
 
 ## About
 
-Estudiante de Ciberseguridad con orientación a **seguridad ofensiva**. Perfil autodidacta con enfoque en evidencia práctica: pentests reales, análisis de malware activo reportado a INCIBE-CERT, y desarrollo de herramientas propias de explotación y reconocimiento.
+Estudiante de Ciberseguridad con orientación a **seguridad ofensiva**. Perfil autodidacta con enfoque en evidencia práctica: pentests reales, análisis de malware activo reportado a INCIBE-CERT, desarrollo de herramientas propias de explotación y reconocimiento, y un homelab propio que uso como laboratorio de infraestructura y networking.
 
 No aprendo ciberseguridad leyendo — la practico.
 
@@ -67,6 +67,27 @@ Arquitectura 3 fases: **network recon → web recon → análisis asistido por I
 
 ---
 
+## Homelab & Infraestructura
+
+> No solo hago pentesting sobre infraestructura ajena — también diseño, aseguro y mantengo la mía propia. Es mi entorno de pruebas para networking, hardening y automatización.
+
+```
+Virtualización      → Proxmox VE (host principal)
+Firewall / Routing   → OPNsense (segmentación de red, reglas propias)
+Automatización       → Home Assistant OS (control de persianas motorizadas vía LocalTuya,
+                        dashboard Lovelace propio en YAML)
+Videovigilancia      → Frigate NVR + cámaras Tapo (go2rtc)
+Gestión de secretos  → Vaultwarden autoalojado
+DNS / Adblocking     → AdGuard Home
+Acceso remoto        → Tailscale (mesh VPN para acceso seguro a servicios internos)
+```
+
+Todo el stack corre autoalojado sobre mi propia red doméstica, segmentada y monitorizada, sirviendo también como base de despliegue para el Offensive Recon Framework.
+
+`Proxmox` `OPNsense` `Home Assistant` `Frigate` `Vaultwarden` `AdGuard Home` `Tailscale` `LocalTuya`
+
+---
+
 ## Stack técnico
 
 **Security Tools**
@@ -85,7 +106,7 @@ C++     ████      Hardware projects (ESP32) -> Flipper Zero Personal (CH
 **OS & Platforms**
 ```
 Kali Linux / Parrot  ·  Debian  ·  Windows (básico)
-Docker  ·  VirtualBox  ·  Tailscale VPN
+Docker  ·  VirtualBox  ·  Proxmox VE  ·  Tailscale VPN
 ```
 
 **Methodologies**
