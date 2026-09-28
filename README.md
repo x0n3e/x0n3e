@@ -1,12 +1,12 @@
 <div align="center">
 
 # Adrián Rodríguez Ortiz
-### Red Team · Pentesting Junior · Security Researcher
+### Backend Developer · Red Team · Security Researcher
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-adrian--rodriguez--ortiz-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/adrian-rodriguez-ortiz/)
 [![GitHub](https://img.shields.io/badge/GitHub-x0n3e-181717?style=flat-square&logo=github)](https://github.com/x0n3e)
 [![HTB](https://img.shields.io/badge/Hack_The_Box-Active-9FEF00?style=flat-square&logo=hackthebox&logoColor=black)](https://app.hackthebox.com)
-[![MSMK](https://img.shields.io/badge/MSMK_University-Ciberseguridad_&_Data_Intelligence-1D3557?style=flat-square)](https://msmk.university)
+[![MSMK](https://img.shields.io/badge/MSMK_University-Ciberseguridad_%26_Data_Intelligence-1D3557?style=flat-square)](https://msmk.university)
 
 </div>
 
@@ -14,15 +14,15 @@
 
 ## About
 
-Estudiante de Ciberseguridad con orientación a **seguridad ofensiva**. Perfil autodidacta con enfoque en evidencia práctica: pentests reales, análisis de malware activo reportado a INCIBE-CERT, desarrollo de herramientas propias de explotación y reconocimiento, y un homelab propio que uso como laboratorio de infraestructura y networking.
+Estudiante de Ciberseguridad que se mueve igual de cómodo construyendo que rompiendo. Desarrollo backend (Python/Flask, arquitecturas propias, automatización) y seguridad ofensiva (pentests reales, análisis de malware activo reportado a INCIBE-CERT, herramientas propias de explotación y reconocimiento) van de la mano en todo lo que hago — incluido un homelab propio que uso tanto de laboratorio de red como de banco de pruebas para lo que desarrollo.
 
-No aprendo ciberseguridad leyendo — la practico.
+No aprendo ciberseguridad leyendo — la practico. Y lo que rompo, también sé construirlo.
 
 ```
-Área principal     → Offensive Security / Red Team
-Especialización    → Web Pentesting · Linux Exploitation · Malware Analysis
+Área principal     → Backend Development & Offensive Security
+Especialización    → Python/Flask · Web Pentesting · Linux Exploitation · Malware Analysis
 Certificaciones    → HTB Academy Pentester Path (en curso)
-Buscando           → Prácticas / Junior Pentester en España
+Buscando           → Prácticas / posición junior (Dev o Security) en España
 ```
 
 ---
@@ -67,6 +67,17 @@ Arquitectura 3 fases: **network recon → web recon → análisis asistido por I
 
 ---
 
+## Proyectos backend (privados)
+
+> Desarrollo también herramientas propias de backend para gestionar mi homelab — no públicas por ahora, pero activas y en uso diario.
+
+- **ha-home-panel** — panel centralizado en Flask que unifica servicios autoalojados (inventario, Home Assistant, monitorización, estado de servicios) detrás de una única API interna.
+- **ha-pyscript** — automatizaciones en Pyscript para Home Assistant (persianas, alarma, electrodomésticos).
+- **ha-automation-toolkit** — utilidades y helpers compartidos para automatizaciones de Home Assistant.
+- **hass-localtuya** — integración local de dispositivos Tuya en Home Assistant, sin dependencia de nube.
+
+---
+
 ## Homelab & Infraestructura
 
 > No solo hago pentesting sobre infraestructura ajena — también diseño, aseguro y mantengo la mía propia. Es mi entorno de pruebas para networking, hardening y automatización.
@@ -98,8 +109,9 @@ Hydra · SQLmap · Wireshark · tshark · Any.run
 
 **Languages / Scripting**
 ```
-Python  ████████  Offensive scripts, automation, analysis tools
+Python  ████████  Backend (Flask, APIs), offensive scripts, automation, analysis tools
 Bash    ███████   Recon pipelines, system automation
+C       █████     Fundamentos de sistemas, hardware embebido (ESP32)
 C++     ████      Hardware projects (ESP32) -> Flipper Zero Personal (CH40S)
 ```
 
@@ -131,6 +143,16 @@ PTES  ·  OWASP Top 10  ·  Kill Chain  ·  Responsible Disclosure
   → Authorized pentest (jubaocolmenarviejo.es)
   → SmartHC professional observation (cybersecurity consultancy)
 ```
+
+---
+
+## GitHub Stats
+
+![x0n3e's GitHub stats](https://github-readme-stats.vercel.app/api?username=x0n3e&show_icons=true&theme=dark&hide_border=true&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=x0n3e&layout=compact&theme=dark&hide_border=true)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=x0n3e&theme=dark&hide_border=true)
 
 ---
 
