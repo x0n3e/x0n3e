@@ -146,16 +146,6 @@ PTES  ·  OWASP Top 10  ·  Kill Chain  ·  Responsible Disclosure
 
 ---
 
-## GitHub Stats
-
-<div align="center">
-
-<img src="./github-metrics.svg" alt="GitHub metrics de x0n3e" width="100%">
-
-</div>
-
----
-
 ## Contacto
 
 [![Email](https://img.shields.io/badge/Email-vrtex781@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:vrtex781@gmail.com)
