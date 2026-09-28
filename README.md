@@ -150,11 +150,10 @@ PTES  ·  OWASP Top 10  ·  Kill Chain  ·  Responsible Disclosure
 
 <div align="center">
 
-![x0n3e's GitHub stats](https://github-readme-stats.vercel.app/api?username=x0n3e&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000&count_private=true)
-
-![x0n3e's contribution graph](https://github-readme-activity-graph.vercel.app/graph?username=x0n3e&theme=github-dark&hide_border=true&bg_color=00000000)
+<img src="./github-metrics.svg" alt="GitHub metrics de x0n3e" width="100%">
 
 </div>
+
 ---
 
 ## Contacto
