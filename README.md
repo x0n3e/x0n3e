@@ -58,7 +58,7 @@ Automatización de: manipulación de cookies, bypass de controles de acceso, enc
 
 ---
 
-### Offensive Recon Framework *(en desarrollo)*
+### Offensive Recon Framework *(en desarrollo, sin repo todavía)*
 > Pipeline automatizado de reconocimiento para fases iniciales de pentest.
 
 Arquitectura 3 fases: **network recon → web recon → análisis asistido por IA** (Ollama + HackTricks RAG). Integrado con homelab personal (Tailscale, segmentación de red).
@@ -72,9 +72,9 @@ Arquitectura 3 fases: **network recon → web recon → análisis asistido por I
 > Desarrollo también herramientas propias de backend para gestionar mi homelab — no públicas por ahora, pero activas y en uso diario.
 
 - **ha-home-panel** — panel centralizado en Flask que unifica servicios autoalojados (inventario, Home Assistant, monitorización, estado de servicios) detrás de una única API interna.
-- **ha-pyscript** — automatizaciones en Pyscript para Home Assistant (persianas, alarma, electrodomésticos).
+- **ha-pyscript** — automatizaciones en Pyscript para Home Assistant (persianas con calculo de porcentaje en base a la incidendia del sol sobre la ventana y la tempratura exterior, alarma, electrodomésticos tipo lavavajillas radiadores...etc).
 - **ha-automation-toolkit** — utilidades y helpers compartidos para automatizaciones de Home Assistant.
-- **hass-localtuya** — integración local de dispositivos Tuya en Home Assistant, sin dependencia de nube.
+- **hass-localtuya** — integración local de dispositivos Tuya en Home Assistant, sin dependencia de nube modificada para integrar un sistema de calculo en base al tiempo de subida y de bajada al mismo tiempo.
 
 ---
 
@@ -85,7 +85,7 @@ Arquitectura 3 fases: **network recon → web recon → análisis asistido por I
 ```
 Virtualización      → Proxmox VE (host principal)
 Firewall / Routing   → OPNsense (segmentación de red, reglas propias)
-Automatización       → Home Assistant OS (control de persianas motorizadas vía LocalTuya,
+Automatización       → Home Assistant OS (control de persianas motorizadas vía LocalTuya Personalizado,
                         dashboard Lovelace propio en YAML)
 Videovigilancia      → Frigate NVR + cámaras Tapo (go2rtc)
 Gestión de secretos  → Vaultwarden autoalojado
@@ -148,12 +148,13 @@ PTES  ·  OWASP Top 10  ·  Kill Chain  ·  Responsible Disclosure
 
 ## GitHub Stats
 
-![x0n3e's GitHub stats](https://github-readme-stats.vercel.app/api?username=x0n3e&show_icons=true&theme=dark&hide_border=true&count_private=true)
+<div align="center">
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=x0n3e&layout=compact&theme=dark&hide_border=true)
+![x0n3e's GitHub stats](https://github-readme-stats.vercel.app/api?username=x0n3e&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000&count_private=true)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=x0n3e&theme=dark&hide_border=true)
+![x0n3e's contribution graph](https://github-readme-activity-graph.vercel.app/graph?username=x0n3e&theme=github-dark&hide_border=true&bg_color=00000000)
 
+</div>
 ---
 
 ## Contacto
